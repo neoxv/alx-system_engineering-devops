@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(IFS='/'; set -f --$PATH; echo $#)
+echo $(IFS=':'; set -f -- $PATH; echo $#)
